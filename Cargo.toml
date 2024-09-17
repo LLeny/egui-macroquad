@@ -21,10 +21,7 @@ include = [
 egui = "0.28"
 # use a fork of egui-miniquad that's been updated to support egui 0.25.0 until https://github.com/not-fl3/egui-miniquad/pull/65 is merged
 egui-miniquad = { git = 'https://github.com/not-fl3/egui-miniquad.git', rev="6bad911ae9dbc74324b8a27a4b43ee8d591c3381" }
-macroquad = { version="0.4", default-features=false }
-
-[dev-dependencies]
-egui_demo_lib = "0.25.0"
+macroquad = { version="0.4.5", default-features=false }
 
 [profile.release]
 opt-level = 3
